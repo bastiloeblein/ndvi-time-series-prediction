@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Time series prediction of NDVI based on Sentinel-2 data of mini cubes: A comparison of SARIMA, Random Forest and LSTM"
+  author: "Kimberly Jahn, Lioba Braun, Sebastian Löblein, Charlotte Göhler and Finja Baumer"
+  date: "7/29/2024"
+  repo-url: https://git.sc.uni-leipzig.de/ss2024-12-geo-m-ds02/ndvi-time-series-prediction
+  cover-image: figure.jpeg
+  chapters:
+    - index.qmd
+    - Notebooks/0_Introduction.ipynb
+    - Notebooks/1_Data_Preprocessing.ipynb
+    - Notebooks/2.1_SARIMA.ipynb
+    - Notebooks/2.2_Random_Forest.ipynb
+    - Notebooks/2.3_LSTM.ipynb
+    - Notebooks/3_Evaluation.ipynb
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    code-fold: false
+    toc: true
+    embed-resources: true
+
